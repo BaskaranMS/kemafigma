@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(137.76deg, #787575 23.79%, #878383 60.58%);
+}
+
+.circle {
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    border-radius: 435px;
+    right: -100px;
+    top: 500px;
+    background: #CDCDD4;
+    filter: blur(17.5px);
+}
+
+.navbar {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navLeft {
+    text-align: center;
+    display: flex;
+    column-gap: 30px;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.title img {
+    width: 20px;
+    height: 20px;
+}
+
+.verticalLine {
+    border: 1px solid white;
+    height: 60px;
+    width: 0px;
+}
+
+.navCenter {
+    flex: 1;
+    text-align: center;
+}
+
+.navCenter img {
+    padding: 20px;
+    height: 70px;
+}
+
+.navRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.navRight button {
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.navRight button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding: 60px 20px 20px 20px;
+}
+
+.headerLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerLeft .leftTop {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.headerLeft h3 {
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    width: 70%;
+}
+
+.headerLeft button {
+    padding: 5px 15px 5px 15px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.headerLeft button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.headerRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.image1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 370px;
+    height: 200px;
+    rotate: 37.39deg;
+    z-index: 2;
+    border-radius: 100px;
+}
+
+.image2 {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 200px;
+    height: 100px;
+    rotate: 12.67deg;
+    z-index: 1;
+    border-radius: 20px;
+    object-fit: cover;
+}
